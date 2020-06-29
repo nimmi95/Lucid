@@ -1,0 +1,303 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  background-image: url(../resources/image1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo a {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+  color: white !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+header h6 {
+  font-size: 12px;
+  line-height: normal;
+  vertical-align: baseline;
+  margin-bottom: 0px;
+  color: #505056;
+  font-weight: 600;
+}
+
+.banner {
+  padding-top: 5%;
+}
+
+.banner h5 {
+  color: #095e8b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.banner h6 {
+  font-size: 16px;
+  color: #999999;
+  padding-bottom: 10%;
+}
+
+.banner img {
+  width: 75%;
+}
+
+.banner button {
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.theme {
+  padding-right: 10%;
+  padding-top: 4%;
+}
+
+.download {
+  background-color: #008ed6;
+}
+
+.feature {
+  color: white;
+  border: 1px solid white;
+  margin-left: 5%;
+}
+
+.feature:hover {
+  color: #008ed6;
+  border: 1px solid #008ed6;
+}
+
+.overview {
+  padding-top: 65px;
+  padding-bottom: 55px;
+}
+
+.overview span {
+  width: 25px;
+  height: 2px;
+  background-color: #008ed6;
+  display: inline-block;
+  transition: 1s all ease-in-out;
+}
+
+.overview:hover span {
+  width: 8%;
+  height: 2px;
+  background-color: #008ed6;
+  display: inline-block;
+  transition: 1s all ease-in-out;
+}
+
+.overview-list {
+  padding-top: 8%;
+  padding-right: 31px;
+  padding-left: 31px;
+}
+
+.overview h5{
+  
+}
+
+.ov-head h6{
+  color: #008ed6;
+}
+
+.circle {
+  border: 2px solid #e0e0e0;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.ic {
+  transform: translate(1px, -65px);
+  
+}
+
+.overview-list h6 {
+  color: #999999;
+}
+
+.ic i {
+  font-size: 30px;
+  color: #008ed6;
+}
+
+.line span {
+  width: 100%;
+  height: 2px;
+  background-color: #e0e0e0;
+  display: inline-block;
+  transition: 1s all ease-in-out;
+}
+
+.dip {
+  padding-top: 65px;
+  padding-bottom: 40px;
+}
+.dip i {
+  padding-right: 0px;
+}
+.dp {
+  width: 65%;
+}
+
+.point {
+  transform: translateX(-20px);
+}
+
+.detail{
+   padding-top: 5%;
+   padding-right: 15%;
+   padding-left: 0px;
+}
+
+.detail h5{
+  font-size: 15px;
+  font-weight: 800;
+  color: #008ed6;
+}
+
+.detail h2{
+  font-size: 37px;
+  font-weight: 600;
+}
+
+.detail p{
+  padding-top: 25px;
+  color: #999999;
+  padding-bottom: 25px;
+}
+
+.point h6{
+  padding-left: 10px;
+}
+
+.detail i{
+  color: #58b5e4;
+}
+
+.detail span {
+  width: 25px;
+  height: 2px;
+  background-color: #008ed6;
+  display: inline-block;
+  transition: 1s all ease-in-out;
+}
+
+.detail:hover span {
+  width: 8%;
+  height: 2px;
+  background-color: #008ed6;
+  display: inline-block;
+  transition: 1s all ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo a {
+    font-size: 32px;
+  }
+
+  header h6 {
+    font-size: 10px;
+  }
+
+  .banner h5 {
+    font-size: 14px;
+  }
+
+  .banner h2 {
+    font-size: 38px;
+  }
+
+  .banner h6 {
+    font-size: 14px;
+  }
+
+  .download {
+    font-size: 12px;
+  }
+
+  .feature {
+    font-size: 12px;
+  }
+
+  .overview:hover span {
+    width: 20%;
+    height: 2px;
+    background-color: #008ed6;
+    display: inline-block;
+    transition: 1s all ease-in-out;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 991px) {
+  .theme {
+    padding-bottom: 5%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ...;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1199px) {
+  .banner img {
+    width: 100%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+}
+
+@media (min-width: 992px) {
+  header ul li {
+    padding-left: 10px;
+  }
+
+  header ul li span {
+    text-align: center;
+    width: 45%;
+    height: 2px;
+    background-color: transparent;
+    display: inline-block;
+    transition: 1s all ease-in-out;
+  }
+
+  header ul li:hover span {
+  
+    height: 2px;
+    background-color: #008ed6;
+    display: inline-block;
+    transition: 1s all ease-in-out;
+  }
+
+  .header ul li:hover span {
+    width: 45%;
+  }
+}
